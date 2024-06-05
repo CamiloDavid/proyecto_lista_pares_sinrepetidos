@@ -8,33 +8,7 @@
         * Si desea consultar alguna de sus keys, validar que la key que proporciona exista
         * Realizar la impresión según lo seleccionado
 
-    Si ingreso tal key, mostrar su correspondiente valor
-    sino mostrar las keys y values de todo el diccionario
-
 """
-# def respuesta_todo_diccionario():
-#     resp = None
-#     while True:
-#         resp = input('Deseas realizar impresion de todo el dicionario (si/no): ')
-#         resp = resp.lower()
-#         if resp == 'si' or resp == 'no':
-#             break
-#         else:
-#             print('Ingresaste una respuesta incorrecta, vuelve a responder')
-#     return resp
-
-# def respuesta_key():
-#     resp = None
-#     while True:
-#         resp = input('Deseas realizar impresion de una key del diccionario (si/no): ')
-#         resp = resp.lower()
-#         if resp == 'si' or resp == 'no':
-#             break
-#         else:
-#             print('Ingresaste una respuesta incorrecta, vuelve a responder')
-#     return resp
-
-# función que busca si una key está o no en un diccionario, si está retorna true sino false
 
 def buscar_key(diccionario, key):
     for termino in diccionario:
@@ -86,17 +60,3 @@ while True:
         break
     else:
         print('Ingresaste una opción incorrecta')
-
-
-# Prueba de las funciones
-
-# función 1 buscar si una key está o no en un diccionario
-
-# resp = buscar_key(person,'lastname')
-# print(f'lastname está en el diccionario ?: {resp}')
-
-# función 2 imprimir el diccionario, key-value por key-value
-# imprimir_diccionario(person)
-
-# función 3 imprimir_key
-# imprimir_key()
