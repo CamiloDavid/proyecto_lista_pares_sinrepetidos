@@ -40,7 +40,7 @@ for num in lista_numeros:
                 cont+=1
         lista_canti_repes.append(cont)
     else:
-        
+        pass
 
 print(f'Lista con la cantidad de repeticiones:\n{lista_canti_repes}')
 

@@ -38,8 +38,7 @@ while True:
             pares.append(num)
             # print(f'Lista hasta el momento:\n{pares}')
         else:
-            print(f'{num} ya estaba en la lista de pares, termina ingreso de números')
-            break
+            # print(f'{num} ya estaba en la lista de pares, no se llena en la lista')
     # else:
         # print(f'{num} no es par, no se llena en la lista')
         
@@ -48,7 +47,8 @@ while True:
     else:
         continue
 
-print('\nLista de Pares Sin Repetidos: '.center(50,'-'))
+print(' ')
+print('Lista de Pares Sin Repetidos: '.center(50,'-'))
 mostrar_lista(pares)
 
 
